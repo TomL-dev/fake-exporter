@@ -1,8 +1,10 @@
-# Fake-Exporter
+Fake-Exporter
+==============
 
 a simple exporter that exposes some random metrics for prometheus.
 
-## Run
+Run
+----
 
 ```docker
 docker run -d -p 5000:5000 tomldev/fake-exporter
