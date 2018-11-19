@@ -6,4 +6,6 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT [ "./fake_exporter.py" ]
+ENTRYPOINT ["python"]
+
+CMD ["fake_exporter.py"]
