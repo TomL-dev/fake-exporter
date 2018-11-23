@@ -107,7 +107,7 @@ def fake_metrics():
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--port', default=5000, type=int)
+    parser.add_argument('--port', default=8080, type=int)
     parser.add_argument('--host', default='0.0.0.0')
     parser.add_argument('--debug', default=False, type=bool)
     options = parser.parse_args()

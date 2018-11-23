@@ -7,7 +7,7 @@ Run
 ----
 
 ```docker
-docker run -d -p 5000:5000 tomldev/fake-exporter
+docker run -d -p 5000:8080 tomldev/fake-exporter
 ```
 
 The python file is based on: [fake_exporter by filippog](https://github.com/filippog/fake_exporter)
